@@ -1,6 +1,6 @@
 # Super New File
 
-Allows glob-like syntax when creating a new file to create multiple files at once.
+VSCode extension that allows glob-like syntax when creating a new file to create multiple files at once.
 
 ## Features
 
