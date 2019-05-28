@@ -2,7 +2,7 @@
   "name": "super-new-file",
   "publisher": "GroveDigital",
   "displayName": "Super New File",
-  "description": "",
+  "description": "Create multiple files using glob-like syntax",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.34.0"
