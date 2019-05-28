@@ -1,0 +1,31 @@
+{
+  "name": "super-new-file",
+  "publisher": "GroveDigital",
+  "displayName": "Super New File",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./extension.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^10.12.21",
+    "eslint": "^5.13.0",
+    "typescript": "^3.3.1",
+    "vscode": "^1.1.28"
+  },
+  "dependencies": {
+    "touch": "^3.1.0"
+  }
+}
