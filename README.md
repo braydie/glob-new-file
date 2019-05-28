@@ -19,6 +19,10 @@ It works on my machine...! This is my first extension so there's possibly some i
 
 ## Release Notes
 
+### 0.0.2
+
+Updated to use fsPath for looking working with file system. This should mean better cross-plat support
+
 ### 0.0.1
 
 Initial release.
