@@ -1,7 +1,7 @@
 {
-  "name": "super-new-file",
+  "name": "glob-new-file",
   "publisher": "braydie",
-  "displayName": "Super New File",
+  "displayName": "Glob New File",
   "description": "Create multiple files using glob-like syntax",
   "version": "0.0.1",
   "engines": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/braydie/super-new-file.git"
+    "url": "https://github.com/braydie/glob-new-file.git"
   },
   "devDependencies": {
     "@types/mocha": "^2.2.42",
