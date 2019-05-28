@@ -6,15 +6,15 @@ const parse = require('./parser');
 
 function activate(context) {
   vscode.workspace.workspaceFolders.forEach(ws => {
-    const watcher = vscode.workspace.createFileSystemWatcher(ws.uri.path + '/**', false, true, true);
+    const watcher = vscode.workspace.createFileSystemWatcher(ws.uri.fsPath + '/**', false, true, true);
     const onCreateEvent = watcher.onDidCreate(e => {
-      if ((e.path.includes('{') && e.path.includes('}')) || e.path.includes(',')) {
-        const name = path.basename(e.path);
-        const basePath = path.dirname(e.path);
+      if ((e.fsPath.includes('{') && e.fsPath.includes('}')) || e.fsPath.includes(',')) {
+        const name = path.basename(e.fsPath);
+        const basePath = path.dirname(e.fsPath);
 
         const [first, ...filesToCreate] = parse(name);
 
-        fs.rename(e.path, basePath + '/' + first, err => {
+        fs.rename(e.fsPath, basePath + '/' + first, err => {
           vscode.window.showErrorMessage(err.message);
         });
 
@@ -25,9 +25,7 @@ function activate(context) {
         vscode.workspace.openTextDocument(basePath + '/' + first).then(doc => {
           vscode.commands
             .executeCommand('workbench.action.closeActiveEditor')
-            .then(() =>
-              vscode.window.showTextDocument(doc, vscode.ViewColumn.Active, true).then(editor => editor.show())
-            );
+            .then(() => vscode.window.showTextDocument(doc, vscode.ViewColumn.Active, true));
         });
       }
     });
