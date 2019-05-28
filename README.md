@@ -1,4 +1,4 @@
-# Super New File
+# Glob New File
 
 VSCode extension that allows glob-like syntax when creating a new file to create multiple files at once.
 
