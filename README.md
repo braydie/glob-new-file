@@ -2,6 +2,8 @@
 
 VSCode extension that allows glob-like syntax when creating a new file to create multiple files at once.
 
+![](/glob-new-file.gif)
+
 ## Features
 
 Expect the following sort of results:
