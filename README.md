@@ -2,6 +2,11 @@
 
 VSCode extension that allows glob-like syntax when creating a new file to create multiple files at once.
 
+## Installation
+
+* Ctrl + p => `ext install braydie.glob-new-file`
+* Install from Marketplace - https://marketplace.visualstudio.com/items?itemName=braydie.glob-new-file
+
 ![](/glob-new-file.gif)
 
 ## Features
