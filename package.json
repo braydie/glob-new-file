@@ -3,7 +3,7 @@
   "publisher": "braydie",
   "displayName": "Glob New File",
   "description": "Create multiple files using glob-like syntax",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.34.0"
   },

@@ -4,8 +4,8 @@ VSCode extension that allows glob-like syntax when creating a new file to create
 
 ## Installation
 
-* Ctrl + p => `ext install braydie.glob-new-file`
-* Install from Marketplace - https://marketplace.visualstudio.com/items?itemName=braydie.glob-new-file
+- Ctrl + p => `ext install braydie.glob-new-file`
+- Install from Marketplace - https://marketplace.visualstudio.com/items?itemName=braydie.glob-new-file
 
 ![](/glob-new-file.gif)
 
@@ -25,6 +25,10 @@ Expect the following sort of results:
 It works on my machine...! This is my first extension so there's possibly some issues in there somewhere.
 
 ## Release Notes
+
+### 0.0.3
+
+Updated dependencies
 
 ### 0.0.2
 
