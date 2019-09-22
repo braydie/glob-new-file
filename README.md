@@ -26,6 +26,10 @@ It works on my machine...! This is my first extension so there's possibly some i
 
 ## Release Notes
 
+### 0.0.4
+
+Updated dependencies
+
 ### 0.0.3
 
 Updated dependencies
